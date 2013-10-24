@@ -19,6 +19,7 @@
 		4D51777C1819154300BD4BAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5177641819154200BD4BAE /* UIKit.framework */; };
 		4D5177841819154300BD4BAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D5177821819154300BD4BAE /* InfoPlist.strings */; };
 		4D5177861819154300BD4BAE /* HomeworkLesson1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5177851819154300BD4BAE /* HomeworkLesson1Tests.m */; };
+		4D5177911819156900BD4BAE /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5177901819156900BD4BAE /* MyObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		4D5177811819154300BD4BAE /* HomeworkLesson1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeworkLesson1Tests-Info.plist"; sourceTree = "<group>"; };
 		4D5177831819154300BD4BAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D5177851819154300BD4BAE /* HomeworkLesson1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeworkLesson1Tests.m; sourceTree = "<group>"; };
+		4D51778F1819156900BD4BAE /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		4D5177901819156900BD4BAE /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				4D5177701819154200BD4BAE /* AppDelegate.m */,
 				4D5177721819154200BD4BAE /* Images.xcassets */,
 				4D5177671819154200BD4BAE /* Supporting Files */,
+				4D51778F1819156900BD4BAE /* MyObject.h */,
+				4D5177901819156900BD4BAE /* MyObject.m */,
 			);
 			path = HomeworkLesson1;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			files = (
 				4D5177711819154200BD4BAE /* AppDelegate.m in Sources */,
 				4D51776D1819154200BD4BAE /* main.m in Sources */,
+				4D5177911819156900BD4BAE /* MyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

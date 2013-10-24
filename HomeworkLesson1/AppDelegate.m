@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MyObject.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    MyObject *object = [MyObject new];
+    [object printMessage];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
